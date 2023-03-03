@@ -8,6 +8,7 @@ public class EmpWage {
     private static final int WORKING_DAYS_PER_MONTH = 20;
     private static final int TOTAL_WORKING_HOURS = 100;
     public static void main(String[] args){
+         System.out.println(" Welcome to employee wage");
         int empHrs=0, empWagePerMonth = 0, totalWorkingDays=0, totalEmpHours = 0;
 
         while(totalEmpHours <= TOTAL_WORKING_HOURS && totalWorkingDays < WORKING_DAYS_PER_MONTH) {
