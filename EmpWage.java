@@ -9,6 +9,7 @@ public class EmpWage {
 
 
     public static void main(String[] args){
+         System.out.println(" Welcome to employee wage");
         System.out.println("Employee Wage for month");
 
         int empHrs = 0, empWagePerDay = 0, empWagePerMonth = 0;
